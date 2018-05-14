@@ -1,0 +1,146 @@
+@charset='UTF-8';
+
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+.nav-menu{
+	background-color:#fff;
+	border-bottom: 1px solid #d8d8d8;
+	height:45px;
+	position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.area{
+	width: 720px;
+	margin: 0 auto; /*centraliza o conteúdo*/
+}
+
+.logotipo{
+	float: left;
+	font-size: 2em;
+	padding: 5px 10px; /*dar espaço*/
+	font-weight: bold;
+}
+
+.menu{
+	float: right;
+	padding: 10px 0; /*descolar o menu do topo da página*/
+}
+
+a{
+	text-decoration: none;
+	padding: 5px 10px; /*dar espaço entre os links*/
+}
+
+a:link{
+	color:#838383;
+}
+
+a:visited{
+	color:#838383;
+}
+
+a:hover{
+	background: #b9c941;
+	color: #fff;
+}
+
+a:active{
+	color:#535353;
+}
+
+.verde{
+	color: #b9c941;
+}
+
+.principal{
+	width: 720px;
+	margin: 10px auto;
+	border: 1px solid red;
+}
+
+.postagem{
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-weight: bolder;
+	color: #b9c941;
+}
+
+.data-postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block; /*Porque o span é uma tag inline e a borda não preenche todo o conteúdo da tela*/
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-post{
+	float: left;
+	margin: 0px 10px 5px 0px;
+}
+
+.postado{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block; 
+	margin-top: 10px;
+}
